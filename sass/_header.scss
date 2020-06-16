@@ -1,0 +1,43 @@
+.header {
+  position: relative;
+  width: $grid-width-primary;
+  height: 1160px;
+  margin-bottom: 17px;
+  background: url("../img/header_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+
+  .header__triangle-top {
+    width: 0;
+    height: 0;
+    border-top: 540px solid #fff;
+    border-right: 1920px solid transparent;
+  }
+
+  .header__triangle-bottom {
+    width: 0;
+    height: 0;
+    border-bottom: 620px solid #fff;
+    border-left: 1920px solid transparent;
+  }
+
+  .header__content {
+    position: absolute;
+    bottom: 210px;
+    font-family: $font-primary;
+    color: #fff;
+    font-size: 20px;
+    line-height: 31px;
+    width: 20%;
+    margin-left: 28px;
+
+    &::before {
+      display: inline-block;
+      content: "";
+      border-top: 1px solid #fff;
+      width: 2.6rem;
+      transform: translateY(-1rem);
+    }
+  }
+}

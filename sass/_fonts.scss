@@ -1,0 +1,48 @@
+// DalaFloda
+
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap');
+
+// Mariad Pro
+
+@font-face {
+  font-family: "Mariad Pro Regular";
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Mariad Pro/MyriadPro-Regular.woff") format("woff"), 
+    url("../fonts/Mariad Pro/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// DalaMoaLight
+
+@font-face {
+  font-family: 'Dala Moa Light';
+  src: url('../fonts/DalaMoaLight/DalaMoa-Light.eot');
+  src: url('../fonts/DalaMoaLight/DalaMoa-Light.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/DalaMoaLight/DalaMoa-Light.woff') format('woff'),
+  url('../fonts/DalaMoaLight/DalaMoa-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+// Futura Medium
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url('../fonts/Futura/Futura Medium/Futura Medium.otf');
+}
+
+// Futura Book
+
+@font-face {
+  font-family: 'Futura Book';
+  src: url('../fonts/Futura/Futura Book/Futura Book.ttf');
+}
+
+// Futura Demi Bold
+
+@font-face {
+  font-family: 'Futura Demi Bold';
+  src: url('../fonts/Futura/Futura DemBld/FuturaBQ-DemiBold.otf');
+}

@@ -1,0 +1,17 @@
+//desktop
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'wrapper';
+@import 'header';
+@import 'main-content';
+@import 'video';
+@import 'footer';
+
+//responsive
+
+@import 'responsive/header';
+@import 'responsive/main-content';
+@import 'responsive/video';
+@import 'responsive/footer';

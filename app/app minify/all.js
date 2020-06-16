@@ -1,0 +1,1 @@
+$(function(){var o=$(".owl-carousel");o.owlCarousel({items:4,loop:!0,nav:!1,dots:!1}),o.on("mousewheel",".owl-stage",function(e){0<e.originalEvent.deltaY?o.trigger("next.owl"):o.trigger("prev.owl"),e.preventDefault()})});

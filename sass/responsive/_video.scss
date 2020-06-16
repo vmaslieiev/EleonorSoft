@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .video {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .video {
+    margin-bottom: 50px;
+    iframe {
+      height: 250px;
+    }
+  }
+}
